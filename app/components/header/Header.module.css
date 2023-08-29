@@ -1,0 +1,27 @@
+.headerSection {
+    @apply py-[24px] fixed w-full z-10
+}
+
+.headerContent {
+    @apply flex justify-between items-center
+}
+
+.headerContent>div {
+    @apply w-[calc(100%/3)]
+}
+
+.headerSection ul {
+    @apply flex items-center gap-[48px]
+}
+
+.headerLogo img {
+    @apply m-auto
+}
+
+.headerMenus ul li {
+    @apply text-[18px]
+}
+
+.headerIcons ul {
+    @apply gap-[30px] justify-end
+}

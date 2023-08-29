@@ -1,0 +1,26 @@
+.bannerSection .slick-arrow {
+    z-index: 9;
+    height: 60px;
+    width: 60px;
+    background: #000 !important;
+    border-radius: 50%;
+}
+
+.bannerSection .slick-prev {
+    left: 10rem;
+}
+
+.bannerSection .slick-next {
+    right: 10rem;
+}
+
+.bannerSection .slick-prev:before,
+.bannerSection .slick-next:before {
+    font-family: inherit;
+    font-size: 50px;
+    line-height: inherit;
+}
+
+.bannerSection img {
+    width: 100%;
+}

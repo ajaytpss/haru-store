@@ -1,0 +1,19 @@
+.bannerSliderSection {
+    @apply text-left
+}
+
+.bannerContent {
+    @apply relative !flex
+}
+
+.content {
+    @apply absolute top-[50%] transform translate-y-[-50%] z-10 w-full left-0
+}
+
+.off {
+    @apply bg-black text-white p-[4px] text-[12px] rounded-[.375rem]
+}
+
+.title {
+    @apply my-[16px] text-[4.5rem] leading-[1] max-w-[50%]
+}
