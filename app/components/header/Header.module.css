@@ -1,27 +1,27 @@
 .headerSection {
-    @apply py-[24px] fixed w-full z-10
+  @apply py-[24px] w-full z-10 top-0 left-0;
 }
 
 .headerContent {
-    @apply flex justify-between items-center
+  @apply flex justify-between items-center;
 }
 
-.headerContent>div {
-    @apply w-[calc(100%/3)]
+.headerContent > div {
+  @apply w-[calc(100%/3)];
 }
 
 .headerSection ul {
-    @apply flex items-center gap-[48px]
+  @apply flex items-center gap-[48px];
 }
 
 .headerLogo img {
-    @apply m-auto
+  @apply m-auto;
 }
 
 .headerMenus ul li {
-    @apply text-[18px]
+  @apply text-[18px];
 }
 
 .headerIcons ul {
-    @apply gap-[30px] justify-end
+  @apply gap-[30px] justify-end;
 }

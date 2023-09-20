@@ -1,7 +1,12 @@
-import styles from "./Footer.module.css"
+import Link from "next/link";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
-    return (
-        <footer className={styles.footerSection}>Footer</footer>
-    )
-}
+  return (
+    <footer className={styles.footerSection}>
+      <div className="container">
+        <Link href={"/admin/login"}>Login as admin</Link>
+      </div>
+    </footer>
+  );
+};

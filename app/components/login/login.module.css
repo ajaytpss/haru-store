@@ -1,0 +1,3 @@
+.loginForm input {
+  @apply w-full h-[45px] px-3;
+}
