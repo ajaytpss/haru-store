@@ -6,6 +6,7 @@ export const Footer = () => {
     <footer className={styles.footerSection}>
       <div className="container">
         <Link href={"/admin/login"}>Login as admin</Link>
+        {/* abc */}
       </div>
     </footer>
   );
